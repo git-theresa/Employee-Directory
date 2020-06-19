@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import UserRow from "./components/UserRow";
 import Wrapper from "./components/Wrapper";
 // import Title from "./components/Title";
+import Form from "./components/Form";
 
 import './App.css';
 import API from "./utils/API.js";
@@ -24,6 +25,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Form />
         {/* <Title>NavBar</Title> */}
         <table className="table">
   <thead>
