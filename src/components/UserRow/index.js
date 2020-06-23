@@ -1,5 +1,7 @@
 import React from "react";
-import "./style.css";
+import "./UserRow/style.css";
+
+// UserRow.js is the table Heading with {props.TableHeading}
 
 function UserRow(props) {
   return (
