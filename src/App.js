@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 import UserRow from "./components/UserRow";
 import Wrapper from "./components/Wrapper";
-import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 import Form from "./components/Form";
 
 import "./App.css";
 import API from "./utils/API.js";
 import { ascSortFunction } from "./utils/SortFunctions";
+
 
 class App extends Component {
   // Setting this.state.friends to the friends json array
@@ -49,7 +50,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Navbar />
+        <Jumbotron />
         <Form
           search={this.state.search}
           handleInputChange={this.handleInputChange}
